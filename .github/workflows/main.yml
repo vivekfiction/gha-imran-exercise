@@ -10,9 +10,6 @@ jobs:
         steps:
             - name: Code name
               uses: actions/checkout@v4
-              
-            - name: Maven Build
-              run: mvn install
 
     Testing:
         runs-on: ubuntu-latest
